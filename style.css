@@ -123,6 +123,39 @@ a {
 	right: -100px;
 }
 
+#dino-arm {
+	position: absolute;
+	height: 10px;
+	width: 50px;
+	top: 250px;
+	left: -20px;
+	background-color: rgb(10, 190, 30);
+}
+#dino-hand {
+	border-top: 5px solid rgb(10, 190, 30);
+	border-bottom: 5px solid rgb(10, 190, 30);
+	border-right: 5px solid rgb(10, 190, 30);
+	position: absolute;
+	left: -25px;
+	top: -10px;
+	height: 20px;
+	width: 25px;
+	border-radius: 5px;
+}
 
+.dino-leg {
+	position: absolute;
+	height: 100px;
+	width: 50px;
+	background-color: rgb(10, 210, 40);
+	bottom: -100px;
+}
+
+.dino-leg.left {
+	left: 50px;
+}
+.dino-leg.right {
+	left: 150px;
+}
 
 
