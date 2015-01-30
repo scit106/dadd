@@ -113,7 +113,15 @@ a {
 	display: inline-block;
 }
 
-
+#dino-tail {
+	border-bottom: 20px solid rgb(10, 210, 40);
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	top: 50%;
+	right: -100px;
+}
 
 
 
