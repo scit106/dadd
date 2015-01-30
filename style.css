@@ -158,4 +158,14 @@ a {
 	left: 150px;
 }
 
+#dino-mouth:hover {
+	animation-name: chomp;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
 
+
+@-webkit-keyframes chomp { from { height:0%; } to { height:200%; }  }
+   @-moz-keyframes chomp { from { height:0%; } to { height:200%; }  }
+     @-o-keyframes chomp { from { height:0%; } to { height:200%; }  }
+        @keyframes chomp { from { height:0%; } to { height:200%; }  }
